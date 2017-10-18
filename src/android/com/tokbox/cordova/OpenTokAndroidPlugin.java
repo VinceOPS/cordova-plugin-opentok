@@ -727,7 +727,6 @@ PublisherKit.PublisherListener, Publisher.CameraListener, Session.StreamProperti
     public void onError(Session arg0, OpentokError arg1) {
         // TODO Auto-generated method stub
         Log.e(TAG, "session exception: " + arg1.getMessage());
-        alertUser("session error " + arg1.getMessage());
     }
 
     // connectionListener
@@ -904,6 +903,5 @@ PublisherKit.PublisherListener, Publisher.CameraListener, Session.StreamProperti
     @Override
     public void onCameraError(Publisher publisher, OpentokError error) {
         Log.e(TAG, "session exception: " + error.getMessage());
-        alertUser("camera error " + error.getMessage());
     }
 }
