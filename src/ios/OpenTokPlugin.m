@@ -630,8 +630,9 @@
     [data setObject: string forKey: @"data"];
     if (connection.connectionId) {
         [data setObject: connection.connectionId forKey: @"connectionId"];
-        [self triggerJSEvent: @"sessionEvents" withType: @"signalReceived" withData: data];
     }
+
+    [self triggerJSEvent: @"sessionEvents" withType: @"signalReceived" withData: data];
 }
 
 
