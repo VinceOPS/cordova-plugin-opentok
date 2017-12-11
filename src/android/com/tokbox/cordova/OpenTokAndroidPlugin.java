@@ -129,13 +129,6 @@ PublisherKit.PublisherListener, Publisher.CameraListener, Session.StreamProperti
                 params.height = (int) (mProperty.getInt(4) * heightRatio);
                 params.width = (int) (mProperty.getInt(3) * widthRatio);
 
-                // remove status bar height if not in fullscreen
-                if ((cordova.getActivity().getWindow().getAttributes().flags & WindowManager.LayoutParams.FLAG_FULLSCREEN) == 0) {
-                    Rect rectangle = new Rect();
-                    cordova.getActivity().getWindow().getDecorView().getWindowVisibleDisplayFrame(rectangle);
-                    params.height = params.height - rectangle.top;
-                }
-
                 mView.setLayoutParams(params);
                 updateZIndices();
             } catch (Exception e) {
