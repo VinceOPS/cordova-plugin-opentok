@@ -19,37 +19,37 @@ To use the OpenTok PhoneGap plugin, include the OpenTok JavaScript file in your 
 <table>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/connection.md">Connection</a>
+      <a href="/docs/connection.md">Connection</a>
     </td>
     <td>Represents a connection to an OpenTok session</td>
 	</tr>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/publisher.md">Publisher</a>
+      <a href="/docs/publisher.md">Publisher</a>
     </td>
     <td>Provides information about the publishing stream</td>
 	</tr>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/session.md">Session</a>
+      <a href="/docs/session.md">Session</a>
     </td>
     <td>Provides access to much of the OpenTok functionality.</td>
 	</tr>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/stream.md">Stream</a>
+      <a href="/docs/stream.md">Stream</a>
     </td>
     <td>Specifies a stream and provides information about it</td>
 	</tr>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/subscriber.md">Subscriber</a>
+      <a href="/docs/subscriber.md">Subscriber</a>
     </td>
     <td>References a stream that you have subscribed to</td>
 	</tr>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/tb.md">TB</a>
+      <a href="/docs/tb.md">TB</a>
     </td>
     <td>Lets you initialize the OpenTok API and set up exception event handling</td>
 	</tr>
@@ -61,31 +61,31 @@ To use the OpenTok PhoneGap plugin, include the OpenTok JavaScript file in your 
 <table>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/exceptionEvent.md">exception</a>
+      <a href="/docs/exceptionEvent.md">exception</a>
     </td>
 		<td>Triggered when errors or unexpected behavior is encountered</td>
 	</tr>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/sessionEvents.md">sessionConnected</a>
+      <a href="/docs/sessionEvents.md">sessionConnected</a>
     </td>
 		<td>Triggered when session has successfully connected</td>
 	</tr>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/sessionEvents.md">sessionDisconnected</a>
+      <a href="/docs/sessionEvents.md">sessionDisconnected</a>
     </td>
 		<td>Triggered when a session has disconnected</td>
 	</tr>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/streamEvents.md">streamCreated</a>
+      <a href="/docs/streamEvents.md">streamCreated</a>
     </td>
 		<td>Triggered when new stream has been created in a session</td>
 	</tr>
 	<tr>
 		<td>
-      <a href="/opentok/PhoneGap-Plugin/blob/master/docs/streamEvents.md">streamDestroyed</a>
+      <a href="/docs/streamEvents.md">streamDestroyed</a>
     </td>
 		<td>Triggered when stream has ended in a session</td>
 	</tr>
@@ -97,5 +97,4 @@ To use the OpenTok PhoneGap plugin, include the OpenTok JavaScript file in your 
 Since the video View is a native UIView on top of the phoneGap's web view, moving the 'object' DOM will have no effect on the video. To update Video position, call this function:
 
     TB.updateViews()
-
 
